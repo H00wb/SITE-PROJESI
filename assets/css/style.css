@@ -794,7 +794,7 @@ section {
   margin-right: auto;
   padding: 30px;
   width: 100%;
-  background-color: darkblue;
+  background-color: white;
 }
 .contact .info i {
   font-size: 20px;
@@ -803,7 +803,7 @@ section {
   float: left;
   width: 44px;
   height: 44px;
-  background: darkblue;
+  background: white;
   display: flex;
   justify-content: center;
   align-items: center;
