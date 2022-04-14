@@ -58,6 +58,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #header {
   background: darkblue;
+  border-color: white;
   transition: all 0.5s;
   z-index: 997;
   padding: 20px 0;
@@ -94,6 +95,7 @@ h1, h2, h3, h4, h5, h6 {
 */
 .navbar {
   color:white;
+  border-color: white;
   padding: 0;
 }
 .navbar ul {
@@ -333,7 +335,7 @@ h1, h2, h3, h4, h5, h6 {
   display: inline-block;
   transition: 0.5s;
   margin-left: 25px;
-  color: #5f687b;
+  color: white;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -896,7 +898,7 @@ section {
 --------------------------------------------------------------*/
 #footer {
   background-color: darkblue;
-  color: #5f687b;
+  color: white;
   font-size: 14px;
   position: relative;
 }
@@ -963,7 +965,7 @@ section {
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #eaecef;
+  background: white;
   color: #5f687b;
   line-height: 1;
   padding: 8px 0;
