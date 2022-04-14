@@ -335,7 +335,7 @@ h1, h2, h3, h4, h5, h6 {
   display: inline-block;
   transition: 0.5s;
   margin-left: 25px;
-  color: white;
+  color: #5f687b;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -736,21 +736,24 @@ section {
 # Team
 --------------------------------------------------------------*/
 .team .member {
+  color: black;
   text-align: center;
   margin-bottom: 20px;
   padding: 30px 20px;
-  background-color: darkblue;
+  background-color: white;
 }
 .team .member img {
   max-width: 100%;
   margin: 0 0 30px 0;
 }
 .team .member h4 {
+  color:black;
   font-weight: 700;
   margin-bottom: 2px;
   font-size: 18px;
 }
 .team .member span {
+  color:black;
   font-style: italic;
   display: block;
   font-size: 13px;
@@ -759,7 +762,7 @@ section {
   padding-top: 10px;
   font-size: 14px;
   font-style: italic;
-  color: white;
+  color: black;
 }
 .team .member .social {
   margin-top: 15px;
@@ -791,7 +794,7 @@ section {
   margin-right: auto;
   padding: 30px;
   width: 100%;
-  background-color: white;
+  background-color: darkblue;
 }
 .contact .info i {
   font-size: 20px;
@@ -800,7 +803,7 @@ section {
   float: left;
   width: 44px;
   height: 44px;
-  background: #fff;
+  background: darkblue;
   display: flex;
   justify-content: center;
   align-items: center;
