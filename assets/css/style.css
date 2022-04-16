@@ -4,7 +4,6 @@
 body {
   
   font-family: 'Quicksand', sans-serif;
-  @import url 'https://fonts.googleapis.com/css2?family=Quicksand&display=swap'
   color: white;
 }
 .tab { 
@@ -233,7 +232,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(73, 80, 94, 0.9);
+  background: #7F00FF;
   transition: 0.3s;
   z-index: 999;
 }
@@ -324,7 +323,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 8px 30px 10px 30px;
   border-radius: 4px;
   transition: 0.5s;
-  color: white;
+  color: black;
   background: #16df7e;
   box-shadow: 0 8px 28px rgba(22, 223, 126, 0.45);
 }
@@ -378,9 +377,14 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 36px;
   }
   #hero h2 {
+    color: black;
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 30px;
+  }
+  #hero h3
+  {
+    color:black;
   }
   #hero .hero-img img {
     width: 70%;
@@ -439,7 +443,7 @@ section {
 .section-title span {
   position: absolute;
   top: 30px;
-  color: #f0f1f3;
+  color: black;
   left: 0;
   right: 0;
   z-index: 1;
@@ -468,7 +472,7 @@ section {
 --------------------------------------------------------------*/
 .featured-services {
   padding: 0;
-  background: #7F00FF;
+  background: white;
 }
 .featured-services .icon-box {
   padding: 20px;
@@ -511,7 +515,7 @@ section {
 --------------------------------------------------------------*/
 .about
 {
-  background-color: #7F00FF;
+  background-color: white;
 }
 .about .content h3 {
   font-weight: 700;
@@ -559,15 +563,15 @@ section {
 --------------------------------------------------------------*/
 .services
 {
-  background-color: #7F00FF;
+  background-color: white;
 }
 .services .icon-box {
   text-align: center;
   border: 1px solid #fff;
   padding: 80px 20px;
   transition: all ease-in-out 0.3s;
-  background: white;
-  color:black;
+  background: #7F00FF;
+  color:white;
 }
 .services .icon-box .icon {
   margin: 0 auto;
@@ -588,7 +592,7 @@ section {
   font-size: 24px;
 }
 .services .icon-box h4 a {
-  color: black;
+  color: white;
   transition: ease-in-out 0.3s;
 }
 .services .icon-box p {
@@ -608,7 +612,7 @@ section {
 --------------------------------------------------------------*/
 .portfolio
 {
-  background-color: #7F00FF;
+  background-color: white;
 }
 .portfolio #portfolio-flters {
   padding: 0;
@@ -685,7 +689,7 @@ section {
 --------------------------------------------------------------*/
 .portfolio-details {
   font-family: 'Quicksand',sans-serif;
-  background-color: #7F00FF;
+  background-color: white;
   padding-top: 40px;
 }
 .portfolio-details .portfolio-details-slider img {
@@ -783,18 +787,20 @@ section {
 # Team
 --------------------------------------------------------------*/
 .team .member {
-  color: black;
+  color: white;
   text-align: center;
   margin-bottom: 20px;
   padding: 30px 20px;
-  background-color: white;
+  background-color: #7F00FF;
 }
 .team .member img {
-  max-width: 100%;
+  border: 2px solid white;
+  border-radius: 20px;
+  max-width: 50%;
   margin: 0 0 30px 0;
 }
 .team .member h4 {
-  color:black;
+  color:white;
   font-weight: 700;
   margin-bottom: 2px;
   font-size: 18px;
@@ -809,7 +815,7 @@ section {
   padding-top: 10px;
   font-size: 14px;
   font-style: italic;
-  color: black;
+  color: white;
 }
 .team .member .social {
   margin-top: 15px;
@@ -831,7 +837,7 @@ section {
 --------------------------------------------------------------*/
 .contact
 {
-  background-color: #7F00FF;
+  background-color: white;
 }
 .contact .info {
   border-top: 3px solid #16df7e;
@@ -902,17 +908,18 @@ section {
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding-bottom: 15px;
-  background: #7F00FF;
+  background: white;
   min-height: 40px;
   margin-top: 82px;
+  border-bottom: 2px solid #5f687b;
 }
 .breadcrumbs h2 {
-  color:white;
+  color:black;
   font-size: 36px;
   font-weight: 400;
 }
 .breadcrumbs ol {
-  color:white;
+  color:black;
   display: flex;
   flex-wrap: wrap;
   list-style: none;
@@ -925,7 +932,7 @@ section {
 .breadcrumbs ol li + li::before {
   display: inline-block;
   padding-right: 10px;
-  color: white;
+  color: black;
   content: "/";
 }
 @media (max-width: 992px) {
