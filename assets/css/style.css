@@ -300,6 +300,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   height: 80vh;
   background: white;
+  color:black;
   padding-top: 82px;
 }
 #hero h1 {
@@ -516,17 +517,21 @@ section {
 .about
 {
   background-color: white;
+  color:black;
 }
 .about .content h3 {
+
   font-weight: 700;
   font-size: 32px;
   color: #5f687b;
 }
 .about .content ul {
+ 
   list-style: none;
   padding: 0;
 }
 .about .content ul li {
+
   padding-bottom: 10px;
 }
 .about .content ul i {
@@ -564,6 +569,7 @@ section {
 .services
 {
   background-color: white;
+  color: black;
 }
 .services .icon-box {
   text-align: center;
@@ -613,6 +619,7 @@ section {
 .portfolio
 {
   background-color: white;
+  color: black;
 }
 .portfolio #portfolio-flters {
   padding: 0;
@@ -690,6 +697,7 @@ section {
 .portfolio-details {
   font-family: 'Quicksand',sans-serif;
   background-color: white;
+  color:black;
   padding-top: 40px;
 }
 .portfolio-details .portfolio-details-slider img {
@@ -782,6 +790,75 @@ section {
   font-size: 18px;
   margin: 0 2px;
 }
+/*--------------------------------------------------------------
+# Testimonials
+--------------------------------------------------------------*/
+.testimonials .testimonials-carousel, .testimonials .testimonials-slider {
+  overflow: hidden;
+}
+.testimonials .testimonial-item {
+  box-sizing: content-box;
+  min-height: 320px;
+}
+.testimonials .testimonial-item .testimonial-img {
+  width: 100px;
+  border-radius: 50%;
+  margin: -40px 0 0 40px;
+  position: relative;
+  z-index: 2;
+  border: 6px solid #fff;
+}
+.testimonials .testimonial-item h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0 5px 45px;
+  color: #111;
+}
+.testimonials .testimonial-item h4 {
+  font-size: 14px;
+  color: #999;
+  margin: 0 0 0 45px;
+}
+.testimonials .testimonial-item .quote-icon-left, .testimonials .testimonial-item .quote-icon-right {
+  color: black;
+  font-size: 26px;
+}
+.testimonials .testimonial-item .quote-icon-left {
+  display: inline-block;
+  left: -5px;
+  position: relative;
+}
+.testimonials .testimonial-item .quote-icon-right {
+  display: inline-block;
+  right: -5px;
+  position: relative;
+  top: 10px;
+}
+.testimonials .testimonial-item p {
+  font-style: italic;
+  margin: 0 15px 0 15px;
+  padding: 20px 20px 60px 20px;
+  background: #7F00FF;
+  color:white;
+  position: relative;
+  border-radius: 6px;
+  position: relative;
+  z-index: 1;
+}
+.testimonials .swiper-pagination {
+  margin-top: 20px;
+  position: relative;
+}
+.testimonials .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+  opacity: 1;
+  border: 1px solid #16df7e;
+}
+.testimonials .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #16df7e;
+}
 
 /*--------------------------------------------------------------
 # Team
@@ -792,6 +869,10 @@ section {
   margin-bottom: 20px;
   padding: 30px 20px;
   background-color: #7F00FF;
+}
+.team p
+{
+color:black;
 }
 .team .member img {
   border: 2px solid white;
@@ -806,7 +887,7 @@ section {
   font-size: 18px;
 }
 .team .member span {
-  color:black;
+  color:white;
   font-style: italic;
   display: block;
   font-size: 13px;
@@ -838,16 +919,16 @@ section {
 .contact
 {
   background-color: white;
+  color: black;
 }
 .contact .info {
-  border-top: 3px solid #16df7e;
-  border-bottom: 3px solid #16df7e;
+  border: 2px solid #00B392;
   position: center;
   margin-left: auto;
   margin-right: auto;
   padding: 30px;
   width: 100%;
-  background-color: white;
+  background-color: #0069FF;
 }
 .contact .info i {
   font-size: 20px;
@@ -868,13 +949,13 @@ section {
   font-size: 22px;
   font-weight: 700;
   margin-bottom: 5px;
-  color: #5f687b;
+  color: white;
 }
 .contact .info p {
   padding: 0 0 10px 60px;
   margin-bottom: 20px;
   font-size: 14px;
-  color: #949cac;
+  color: white;
 }
 .contact .info .social-links {
   padding-left: 60px;
