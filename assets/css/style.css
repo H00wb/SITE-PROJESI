@@ -477,10 +477,11 @@ section {
 }
 .featured-services .icon-box {
   padding: 20px;
-  color: white;
-  background: #7F00FF;
+  color: black;
+ box-shadow: 4px 8px 3px #888888; 
+  background: #FFF;
   border-radius: 8px;
-  border: 1px solid #f9f9fa;
+  border: 1px solid black;
   transition: 0.3s;
   height: 100%;
 }
@@ -488,7 +489,7 @@ section {
   margin: 0 0 15px 0;
 }
 .featured-services .icon i {
-  color: #16df7e;
+  color: #7F00FF;
   font-size: 36px;
 }
 .featured-services .title {
@@ -573,11 +574,12 @@ section {
 }
 .services .icon-box {
   text-align: center;
-  border: 1px solid #fff;
+  border: 1px solid black;
+  box-shadow: 4px 8px 3px #888888; 
   padding: 80px 20px;
   transition: all ease-in-out 0.3s;
-  background: #7F00FF;
-  color:white;
+  background: white;
+  color:black;
 }
 .services .icon-box .icon {
   margin: 0 auto;
@@ -598,7 +600,7 @@ section {
   font-size: 24px;
 }
 .services .icon-box h4 a {
-  color: white;
+  color: #7F00FF;
   transition: ease-in-out 0.3s;
 }
 .services .icon-box p {
@@ -866,10 +868,10 @@ section {
 .team .member {
   color: white;
   text-align: center;
-  padding: 20px;
-  width: 320px;
-  height: 320px;
-  margin: 20px;
+  padding: 10px;
+  width: 150px;
+  height: 150px;
+  margin: 10px;
   background-color: #7F00FF;
 }
 .team p
