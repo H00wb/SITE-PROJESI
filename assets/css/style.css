@@ -866,33 +866,36 @@ section {
 # Team
 --------------------------------------------------------------*/
 .team .member {
-  color: white;
+  color: #7F00FF;
   text-align: center;
   padding: 10px;
   width: 320px;
   height: 320px;
   margin: 10px;
-  background-color: #7F00FF;
+  background-color: white;
   border-radius: 20px;
+  border: 2px solid black;
+  box-shadow: 4px 8px 3px #888888;
 }
 .team p
 {
 color:black;
 }
 .team .member img {
-  border: 2px solid white;
+  border: 2px solid black;
+  box-shadow: 4px 8px 3px #888888;
   border-radius: 20px;
   max-width: 50%;
   margin: 0 0 30px 0;
 }
 .team .member h4 {
-  color:white;
+  color:#7F00FF;
   font-weight: 700;
   margin-bottom: 2px;
   font-size: 18px;
 }
 .team .member span {
-  color:white;
+  color:black;
   font-style: italic;
   display: block;
   font-size: 13px;
@@ -993,7 +996,7 @@ color:black;
 # Breadcrumbs
 --------------------------------------------------------------*/
 .breadcrumbs {
-  padding-bottom: 15px;
+  padding-bottom: 2px;
   background: white;
   min-height: 50px;
   margin-top: 82px;
