@@ -163,6 +163,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 .navbar .dropdown ul li {
   min-width: 200px;
+  border: 1px solid white;
+  margin: 10px 0;
+  border-radius: 4px;
 }
 .navbar .dropdown ul a {
   padding: 10px 20px;
