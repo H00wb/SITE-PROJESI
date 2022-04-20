@@ -998,10 +998,10 @@ color:black;
 # Breadcrumbs
 --------------------------------------------------------------*/
 .breadcrumbs {
-  padding-bottom: 2px;
+  padding-bottom: 10px;
   background: white;
   min-height: 50px;
-  margin-top: 82px;
+  margin-top: 50px;
   border-bottom: 2px solid #5f687b;
 }
 .breadcrumbs h2 {
