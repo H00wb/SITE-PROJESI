@@ -260,7 +260,7 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-mobile a, .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: #5f687b;
+  color: white;
 }
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
   color: #16df7e;
@@ -277,8 +277,8 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 99;
   opacity: 1;
   visibility: visible;
-  background: black;
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  background: #7F00FF;
+  box-shadow: 0px 0px 30% white;
 }
 .navbar-mobile .dropdown ul li {
   min-width: 200px;
@@ -311,7 +311,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 30px;
   font-weight: 700;
   line-height: 56px;
-  color: #0069FF;
+  color: orange;
 }
 #hero h2 {
   color: black;
@@ -483,7 +483,8 @@ section {
   color: black;
   background: #FFF;
   border-radius: 8px;
-  border: 1px solid black;
+  border: 0.25px solid black;
+  box-shadow: 0 4px 7px 0 rgb(0 0 0 / 5%);
   transition: 0.3s;
   height: 100%;
 }
@@ -504,7 +505,8 @@ section {
   transition: 0.3s;
 }
 .featured-services .icon-box:hover {
-  border-color: #eaecef;
+  border-color: orange;
+  box-shadow:0 4px 7px 0 rgb(0 0 0 / 5%);
 }
 .featured-services .icon-box:hover .title a {
   color: #16df7e;
@@ -576,7 +578,7 @@ section {
 }
 .services .icon-box {
   text-align: center;
-  border: 1px solid black;
+  border: 0.25px solid black;
   padding: 80px 20px;
   border-radius: 20px;
   transition: all ease-in-out 0.3s;
@@ -611,7 +613,8 @@ section {
   margin-bottom: 0;
 }
 .services .icon-box:hover {
-  border-color: #eaecef;
+  border-color: #16df7e;
+  box-shadow: 0 4px 7px 0 rgb(0 0 0 / 5%);
 }
 .services .icon-box:hover h4 a {
   color: #16df7e;
@@ -934,6 +937,13 @@ color:black;
   background-color: white;
   color: black;
 }
+.contact .image
+{
+  margin-top: 55px;
+  padding-top: 5px;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+}
 .contact .info {
   border: 2px solid #00B392;
   position: center;
@@ -946,11 +956,11 @@ color:black;
 .contact .info i {
   font-size: 20px;
   position: center;
-  color: #16df7e;
+  color: white;
   float: left;
   width: 44px;
   height: 44px;
-  background: white;
+  background: orange;
   display: flex;
   justify-content: center;
   align-items: center;
