@@ -505,7 +505,7 @@ section {
   transition: 0.3s;
 }
 .featured-services .icon-box:hover {
-  border-color: orange;
+  border-color: #16df7e;
   box-shadow:0 4px 7px 0 rgb(0 0 0 / 5%);
 }
 .featured-services .icon-box:hover .title a {
