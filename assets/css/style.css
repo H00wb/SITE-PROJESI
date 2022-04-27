@@ -311,7 +311,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 30px;
   font-weight: 700;
   line-height: 56px;
-  color: orange;
+  color: #037d50;
 }
 #hero h2 {
   color: black;
@@ -578,7 +578,7 @@ section {
 }
 .services .icon-box {
   text-align: center;
-  border: 0.25px solid black;
+  box-shadow: 0 4px 7px 0 rgb(0 0 0 / 5%);
   padding: 80px 20px;
   border-radius: 20px;
   transition: all ease-in-out 0.3s;
@@ -614,7 +614,7 @@ section {
 }
 .services .icon-box:hover {
   border-color: #16df7e;
-  box-shadow: 0 4px 7px 0 rgb(0 0 0 / 5%);
+  box-shadow: 0 4px 7px 0 rgb(0 0 100 /30%);
 }
 .services .icon-box:hover h4 a {
   color: #16df7e;
@@ -708,10 +708,11 @@ section {
   padding-top: 40px;
 }
 .portfolio-details .portfolio-details-slider img {
+  margin-top: 25px;
   width: 100%;
 }
 .portfolio-details .portfolio-details-slider .swiper-pagination {
-  margin-top: 20px;
+  margin-top: 30px;
   position: relative;
 }
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
